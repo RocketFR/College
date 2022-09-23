@@ -1,0 +1,15 @@
+#include <iostream>
+
+
+
+int main() {
+	
+	int num [5]; //declarando vetor numerico 0..4
+	
+	int indice;
+	for (indice = 0; indice <= 4; indice++){
+		prinf ("Entre com o %dº numero:", indice);
+		scanf("%d," &num[indice]);
+	}
+	return 0;
+}
