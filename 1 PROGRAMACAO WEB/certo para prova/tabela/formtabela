@@ -1,0 +1,52 @@
+<html>
+
+<head>
+
+</head>
+
+<body>
+
+<form action="tabela.php" method="get" name="prim">
+
+Linha: <input type="number" name="lin">
+Coluna: <input type="number" name="col">
+<input type="submit">
+
+</form>
+
+<hr>
+
+<form action="tabela.php" method="get" name="seg">
+
+Linha:
+
+<select name="lin">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+	<option value="5">5</option>
+	<option value="7">7</option>
+	<option value="8">8</option>
+	<option value="9">9</option>
+</select>
+
+Coluna: 
+<select name="col">
+	<option value="1">1</option>
+	<option value="2">2</option>
+	<option value="3">3</option>
+	<option value="4">4</option>
+</select>
+
+<input type="submit">
+
+</form>
+
+
+
+
+</body>
+
+
+</html>

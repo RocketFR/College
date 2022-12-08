@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro de notas</title>
+    </head>
+
+    <body>
+        <form action="cadnotas.php" method="post">
+        
+		<h4>Laçamento de Notas</h4>
+		RGM: <input type="number" name="rgm" required><br>
+		Nome: <input type="text" name="nome" required><br>
+		A1: <input type="number" name="a1" min="0" max="5" required><br>
+		A2: <input type="number" name="a2" min="0" max="5" required><br> 		
+		<input type="submit" name="cadastrar"><br> 
+		<hr>
+		
+		<a href="rel.php"> Gerar relatório </a>
+		
+		
+	</body>
+</html>

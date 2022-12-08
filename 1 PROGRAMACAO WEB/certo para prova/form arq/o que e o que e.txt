@@ -1,0 +1,30 @@
+file = f
+fopen = abrir arquivo
+fclose = fechar arquivo
+fwrite = escrever NO arquivo
+fgets = ler DO arquivo
+
+Ponteiro = não se mexe com o 
+arquivo direto na memória
+
+$arqpont = fopen ('banana.txt', 'w');
+
+Sintaxe:
+$nomedavariaveldoarquivo = fopen ('nomedoarquivo.extensao', 'tipoabertura');
+
+
+'tipoabertura':
+w - write (escrita) - recrio o arquivo - perco os dados anteriores
+r - read (leitura) - leitura do arquivo
+a - append (adicionar) - inserir no arquivo - mantenho dados e adiciono mais informações
+
+Sintaxe:
+fwrite(nomedavariaveldoarquivo,oqueseraescrito,tamanhodoqueseraescrito);
+
+Funçao:
+strlen(oqueseraescrito) 
+str = string (literal)
+len = lenght (tamanho)
+
+sintaxe:
+fclose(nomedavariaveldoarquivo)
